@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LITHUB</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Success Notification Popup -->
+    <div id="success-popup" class="success-popup">
+        <div class="popup-content">
+            <i class="fa-solid fa-circle-check"></i>
+            <div>
+                <p>Message sent successfully!</p>
+                <span class="popup-subtitle">We'll get back to you soon.</span>
+            </div>
+        </div>
+    </div>
+
+    <header class="main-header" id="hero">
+        <nav class="navbar">
+            <div class="logo"><img class="logo-part-1" src="assets/logo1.png" alt=""> <img class="logo-part-2"
+                    src="assets/logo2.png" alt=""></div>
+            <ul class="navlinks">
+                <a class="active link" href="#hero">Home</a>
+                <a class="link" href="#about">About</a>
+                <a class="link" href="#services">Service</a>
+                <a class="link" href="#contact">Contact Us</a>
+            </ul>
+
+            <div class="hamburger_menu">
+                <span class="bar bar1"></span>
+                <span class="bar bar2"></span>
+                <span class="bar bar3"></span>
+            </div>
+        </nav>
+
+        <div class="hero-section">
+            <h1>Empower Your <br> Life with a Tech Skill</h1>
+            <p>We harness technology to inspire learning,<br> create smarter spaces, and build reliable, modern
+                networks<br> that keep homes and businesses running seamlessly.</p>
+            <a href="https://forms.gle/UqouBjHQXRY8Zdg68">Apply Now</a>
+        </div>
+    </header>
+
+    <main class="main-section">
+        <div class="about-section section" id="about">
+            <h2>About Us</h2>
+            <p>At <span>Lit Hub</span>, we are passionate about making technology simple, accessible, and meaningful.
+                We exist to help young people unlock their potential and to help homes and businesses enjoy the comfort,
+                safety, and power of modern technology. Our organization operates across three major branches:
+
+            </p>
+
+            <div class="about-cards">
+                <div class="card">
+                    <p>Tech Mentorship <br>
+                        & Training</p>
+                    <img src="assets/about_card_img_1.png" alt="">
+                </div>
+                <div class="card even-card">
+                    <p>Home Automation <br> Services</p>
+                    <img src="assets/about_card_img_2.png" alt="">
+                </div>
+                <div class="card">
+                    <p>Networking & IT Infrastructure</p>
+                    <img src="assets/about_card_img_3.png" alt="">
+                </div>
+            </div>
+            <p class="about-text">
+                Each branch reflects our commitment to one core idea: technology should make life easier,<br>
+                smarter, and more empowering.
+            </p>
+        </div>
+
+        <div class="services-section section" id="services">
+            <h3>Our Services</h3>
+            <div class="services-nav">
+                <button class="tab-btn active" data-tab="tech">Mentorship & Training</button>
+                <button class="tab-btn" data-tab="home-service">Home Automation</button>
+                <button class="tab-btn" data-tab="networking">Networking & IT Infrastructure</button>
+            </div>
+            <div class="services-container">
+                <!-- mentorship 1 -->
+                <div class="service-content-box service-box1 active" id="tech">
+                    <div class="service-img">
+                        <img src="assets/mentorship.jpg" alt="">
+                    </div>
+                    <div class="service-text">
+                        <p>We believe the future belongs to those who understand technology and we’re dedicated to
+                            raising that next generation.
+                            Our mentorship program guides beginners with patience, clarity, and hands-on practice. We
+                            break down complex concepts into simple steps, ensuring every learner grows with confidence.
+                        </p>
+                        <p>From computer fundamentals to web development, embedded systems, robotics, basic networking,
+                            and digital literacy, our training focuses on teaching real, practical skills that open real
+                            opportunities.</p>
+
+                        <p>We proudly work with students, schools, youth communities, and organizations that want to
+                            empower young minds.
+                            Our goal isn’t just to teach tech but to inspire creators, builders, and thinkers who can
+                            shape tomorrow.</p>
+                    </div>
+                </div>
+
+                <!-- home automation service 3 -->
+                <div class="service-content-box service-box2" id="home-service">
+                    <div class="service-img">
+                        <img src="assets/smart_home.jpg" alt="">
+                    </div>
+                    <div class="service-text">
+                        <p>At Lit Hub, we create smart environments that adapt to your lifestyle. Our automation solutions are designed to make everyday living and work more comfortable, secure, and efficient by seamlessly integrating intelligent lighting, access control, security systems, appliance management, and energy monitoring. With intuitive app and voice control, you can manage your entire space effortlessly from anywhere
+                        </p>
+                        <p>We serve homes, offices, hotels, schools, banks, and commercial spaces, delivering customized smart solutions that fit each environment’s unique needs. From automated check-ins and smart unlocking to real-time security alerts and safety automation, Lit Hub helps you experience smarter, safer, and more responsive spaces built around your comfort and peace of mind.</p>
+                    </div>
+                </div>
+
+                <!-- networking 3 -->
+                <div class="service-content-box service-box3" id="networking">
+                    <div class="service-img">
+                        <img src="assets/networking.jpg" alt="">
+                    </div>
+                    <div class="service-text">
+                        <p>
+                            At Lit Hub, we build fast, secure, and reliable networks that keep people, devices, and
+                            businesses connected without interruption.
+                        </p>
+                        <ul>
+                            <li>We design connected environments that feel smooth, stable, and effortless.</li>
+
+                            <li>With our networking solutions, you can enjoy: Strong, Stable Wi-Fi Everywhere Zero dead
+                                zones, full coverage.</li>
+
+                            <li>Optimized Router & Access Point Setup Fast, secure, and intelligently configured</li>
+
+                            High-Speed LAN Networks Perfect for offices, banks, schools, and studios.
+                            <li>Load Balancing & Backup Internet Stay online even when one network fails.</li>
+                            <li>Smart Network Dashboards Control access, monitor devices, manage connections.</li>
+                            <li>Secure Guest Networks Ideal for hotels, hostels, cafés, and offices.</li>
+                            <li>CCTV Over Network Integration Remote, crystal-clear viewing with secure access.</li>
+                            <li>Mini Server & Storage Setup Internal file storage and backup for organizations.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mission-section section">
+            <h3><img src="assets/mission.png" alt=""> Our Mission</h3>
+            <p class="sub-title">Our mission is the heart of everything we do at Lit Hub.</p>
+            <p class="mission-text">
+                We exist to empower people with technology, not overwhelm them with it. <br>
+                To teach skills that open doors. To build smart spaces that feel effortless. To create networks and <br>
+                systems that support real growth. <br>
+                Young people discover confidence and creativity through technology
+            </p>
+
+            <div class="mission-card-container">
+                <div class="mission-card">
+                    <img src="assets/mission_icon_1.png" alt="">
+                    <p>Young people discover onfidence and creativity through technology</p>
+                </div>
+                <div class="mission-card">
+                    <img src="assets/misson_icon_3.png" alt="">
+                    <p>Homes feel safer, smarter, and more comfortable</p>
+                </div>
+                <div class="mission-card">
+                    <img src="assets/misson_icon_2.png" alt="">
+                    <p>Businesses run smoother, faster, and more efficiently</p>
+                </div>
+            </div>
+            <p class="mission-text-2">We're not just delivering services. <br>
+                We're shaping the next generation of innovators. <br>
+                one learner at a time. One smart home at a time. <br>
+                One connected business at a time.
+            </p>
+        </div>
+        <div class="team-section section">
+            <h3>MEET OUR TEAM</h3>
+            <p class="sub-title">Behind every solution we create is a small, dedicated team of innovators and technical
+                experts. We
+                combine vision, technical <br>
+                excellence, and hands-on mentorship to empower young people, transform spaces, and deliver smart,
+                reliable technology solutions.</p>
+
+            <div class="team-details-container">
+                <div class="team-card">
+                    <img src="assets/team/team_2.jpg" alt="">
+                    <div class="team_details">
+                        <p class="name">Pererat Timothy</p>
+                        <p class="post">Chief Technical Officer (CTO)</p>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="assets/team/team_1.jpg" alt="">
+                    <div class="team_details">
+                        <p class="name">Jezreel Joseph</p>
+                        <p class="post">Founder</p>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="assets/service_image_1.png" alt="">
+                    <div class="team_details">
+                        <p class="name">Julius Joseph</p>
+                        <p class="post">Home Automation & Smart Systems Lead</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-section section" id="contact">
+            <h3>Contact Us</h3>
+            <p class="sub-title">We'd love to hear from you! Whether you have questions, want to explore our services,
+                or are interested in mentorship programs, our team is ready to assist.</p>
+
+            <div class="contact-container">
+                <div class="left-container">
+                    <p class="card-title">Get in Touch</p>
+                    <ul>
+                        <li>
+                            <!-- <span class="icon">
+                                <i class="fa-regular fa-envelope"></i>
+                            </span> -->
+                            <span>
+                                <p class="means">Email</p>
+                                <a href="mailto:learninginnovationtechnology25@gmail.com">info@lithub.com</a>
+                            </span>
+                        </li>
+                        <li>
+                            <!-- <span class="icon">
+                                <i class="fa-solid fa-mobile"></i>
+                            </span> -->
+                            <span>
+                                <p class="means">Phone</p>
+                                <p>+234 813 403 4153, +234 813 315 3568, +234 813 970 9531</p>
+                            </span>
+                        </li>
+                    </ul>
+                    <div class="socials">
+                        <p class="socials-heading">Follow Us</p>
+                        <p class="socials-text">
+                            Stay connected and up to date with our latest innovations, projects, and mentorship
+                            opportunities
+
+                        </p>
+                        <div class="socials_icon">
+                            <a href="https://www.facebook.com/share/14QXRPk8tru/"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="https://www.youtube.com/@Lithubstudios"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="right-container">
+                    <form id="contact-form">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                        <!-- <label for="subject">Subject</label>
+                        <input type="text" name="subject" id="subject" placeholder="Enter subject" required> -->
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10"
+                            placeholder="Enter your message here..." required></textarea>
+
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Lit Hub. All rights reserved.</p>
+        <p>Making technology simple, accessible, and meaningful.</p>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+
+    <!-- EmailJS v4 SDK (non-module) -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+        // Success Popup Function
+        function showSuccessPopup() {
+            const popup = document.getElementById('success-popup');
+            popup.style.animation = 'slideDown 0.5s ease-out forwards'; // Reset animation
+
+            if (!popup) return;
+
+            // Remove hide class to show popup
+            popup.classList.remove('hide');
+
+            // Force reflow to restart animation
+            void popup.offsetWidth;
+
+            // Hide popup after 1.5 seconds
+            setTimeout(() => {
+                if (popup) {
+                    popup.classList.add('hide');
+                }
+            }, 1500);
+        }
+
+        // Initialize EmailJS
+        emailjs.init('3ggzlaLaifzwhfsrP'); // replace with your public key
+
+        const form = document.getElementById("contact-form");
+        const name = document.getElementById('name');
+        const email = document.getElementById('email');
+        const message = document.getElementById('message');
+        const submitBtn = form.querySelector('button[type="submit"]');
+
+        form.addEventListener("submit", (e) => {
+            e.preventDefault();
+
+            // Disable button and show loading
+            submitBtn.disabled = true;
+            const originalText = submitBtn.textContent;
+            submitBtn.textContent = "Submitting...";
+
+            const formData = {
+                name: form.name.value,
+                email: form.email.value,
+                message: form.message.value
+            };
+
+            emailjs.send('service_uv2nunj', 'template_v4lgur9', formData)
+            emailjs.send('service_uv2nunj', 'template_uebb9mg', formData)
+                .then(() => {
+                    form.reset();
+                })
+                .catch((err) => {
+                    console.error(err);
+                    alert("Oops! Something went wrong. Please try again later.");
+                })
+                .finally(() => {
+                    showSuccessPopup();
+                    submitBtn.disabled = false;
+                    submitBtn.textContent = originalText;
+                });
+        });
+    </script>
+
+
+</body>
+
+</html>
